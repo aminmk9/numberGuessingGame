@@ -66,7 +66,7 @@ public class NumberGuessingGame {
 		        cnt++;
 		    }
 		    
-		    if(!isEnded) {
+		    if(numberGuessBean.getInputStr().equalsIgnoreCase(CORRECT_GUESS)) {
 		    	System.out.println("Answer is "+numberGuessBean.getRandomNumber() + ", computer took only "+cnt+" tries!!!!!");
 		    } else {
 		    	System.out.println("Game has been eneded, thank you for playing Number Guessing Game!!");
