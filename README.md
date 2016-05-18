@@ -11,4 +11,6 @@ Player can terminate game any time by typing 'end'
 Pre Requisites : JDK 1.7.0 and Maven 3.3.9
 
 mvn install
+
+
 java -cp target\NumberGuessingGame-0.0.1-SNAPSHOT.jar com.games.nbrguess.NumberGuessingGame
