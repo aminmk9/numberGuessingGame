@@ -38,7 +38,6 @@ public class NumberGuessingGame {
 		    
 		    selectedUpperLimit = upperLimit = input.nextInt();
 		    System.out.println("Your guess must be between 1 and "+upperLimit+".\n");
-		    upperLimit++;
 		    
 	        NumberGuessBean numberGuessBean = new NumberGuessBean(lowerLimit, upperLimit);
 		    NumberGuessBinarySearch binarySearch = new NumberGuessBinarySearch();

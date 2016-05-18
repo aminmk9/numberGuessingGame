@@ -13,10 +13,9 @@ public class NumberGuessBinarySearch {
 	public NumberGuessBean getNextGuess(NumberGuessBean numberGuessBean){
 		 
 		int randomNum = ((numberGuessBean.getUpperLimit() - numberGuessBean.getLowerLimit()) / 2) + numberGuessBean.getLowerLimit();
-		System.out.println("random num: "+randomNum+" lowerLimit: "+numberGuessBean.getLowerLimit()+" UpperLimit: "+numberGuessBean.getUpperLimit());
 		numberGuessBean.setRandomNumber(randomNum);
-        
-       return numberGuessBean;
+	
+		return numberGuessBean;
 	}
 
 	/**
